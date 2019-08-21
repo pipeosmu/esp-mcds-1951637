@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::post('/hola-mundo', function(){
+//     return 'Hola esto es una prueba de una ruta basica utilizando laravel POST';
+// });
+
+
+// Route::get('contacto/{nombre?}/{edad?}',function($nombre="felipe", $edad = 23){
+//     return view('contacto', array(
+//     	"nombre" => $nombre,
+//     	"edad" => $edad
+//     ));
+// });
